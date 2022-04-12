@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex,nofollow">
+        <title>OPS 옵스</title>
+        <link rel="shortcut icon" href="images/common/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="images/common/favicon_ios.png">
+        <link rel="icon" sizes="192x192" href="images/common/favicon_android.png">
+
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/jquery-1.12.0.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/swiper-bundle.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+    <body>
+        <div class="popup">
+            <div class="popup_wrap">
+                <div class="p_top">
+                    <h3>NOTICE</h3>
+                    <p>
+                        본 사이트는 상업적 목적이 아닌 개인 포트폴리오<br>
+                        용도로 만들어 졌습니다. 홈페이지의 일부 내용과<br>
+                        이미지 등은 그 출처가 따로 있음을 밝힙니다.<br>
+                        본 사이트는 HTML5와 CSS3을 기준으로 하여 크롬,<br>
+                        사파리, 오페라, 파이어폭스, IE11이상의 브라우저에<br>
+                        맞춘 홈페이지입니다.
+                    </p>
+                    <h3>MOBILE</h3>
+                    <p>
+                        QR코드를 스캔하시면 모바일버전으로<br>
+                        이동하실 수 있습니다.
+                    </p>
+                    <img src="images/main/popup_qr.png" alt="옵스 모바일큐알코드">
+                </div>
+                <form action="#">
+                    <input type="checkbox" id="today_chk">
+                    <label for="today_chk">오늘 하루 안보기</label>
+                    <a href="#" class="close_btn">
+                        <img src="images/main/popup_close_btn.png" alt="팝업창 닫기버튼">
+                    </a>
+                </form>
+            </div>
+        </div>
+        <header>
+            <div class="h_top">
+                <div class="inner_wrap">
+                    <div class="icon_tnav">
+                        <ul>
+                            <li><a href="#" class="icon01"><img src="images/common/header_icon_01.png" alt="풀네비게이션 아이콘"></a></li>
+                            <li><a href="#" class="icon02"><img src="images/common/header_icon_02.png" alt="검색아이콘"></a></li>
+                        </ul>
+                    </div>
+                    <div class="topnav">
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">LOGIN</a></li>
+                            <li><a href="#">JOIN</a></li>
+                            <li><a href="#">MYPAGE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="h_bottom">
+                <nav class="gnb_wrap">
+                    <nav class="gnb_left">
+                        <ul>
+                            <li>
+                                <a href="#" class="mainnav">회사소개</a>
+                                <ul class="subnav">
+                                    <li><a href="#">브랜드소개</a></li>
+                                    <li><a href="#">기업이념</a></li>
+                                    <li><a href="#">멤버쉽안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="mainnav">메뉴소개</a>
+                                <ul class="subnav">
+                                    <li><a href="#">신제품</a></li>
+                                    <li><a href="#">빵</a></li>
+                                    <li><a href="#">쿠키</a></li>
+                                    <li><a href="#">케이크</a></li>
+                                    <li><a href="#">초콜렛</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="mainnav">매장안내</a>
+                                <ul class="subnav">
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">부산</a></li>
+                                    <li><a href="#">서울</a></li>
+                                    <li><a href="#">경기/인천</a></li>
+                                    <li><a href="#">경남</a></li>
+                                    <li><a href="#">울산</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h1>
+                        <a href="index.html">
+                            <img src="images/common/header_logo.png" alt="옵스로고">
+                        </a>
+                    </h1>
+                    <nav class="gnb_right">
+                        <ul>
+                            <li>
+                                <a href="#" class="mainnav">단체주문</a>
+                                <ul class="subnav">
+                                    <li><a href="#">메세지카드&스티커</a></li>
+                                    <li><a href="#">쿠키세트</a></li>
+                                    <li><a href="#">구운과자</a></li>
+                                    <li><a href="#">롤케익</a></li>
+                                    <li><a href="#">파운드케익</a></li>
+                                    <li><a href="#">답례품</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="mainnav">옵스소식</a>
+                                <ul class="subnav">
+                                    <li><a href="#">공지사항</a></li>
+                                    <li><a href="#">리뷰</a></li>
+                                    <li><a href="#">메거진</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                    <li><a href="#">이벤트당첨자</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="mainnav">고객센터</a>
+                                <ul class="subnav">
+                                    <li><a href="#">내정보</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Q&A</a></li>
+                                    <li><a href="#">RVIP전용</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide main01">
+                        <h4>
+                            OPS<br>
+                            Cookie Set
+                        </h4>
+                        <p>
+                            옵스가 정성껏 구운 맛있는 쿠키set<br>
+                            달콤하고 부드러운 쿠키들을 만나보세요!
+                        </p>
+                        <img src="images/main/main_bn_01.jpg" alt="메인이미지01">
+                    </div>
+                    <div class="swiper-slide main02">
+                        <h4>For Gift</h4>
+                        <h5>with OPS</h5>
+                        <p>
+                            소중한 사람에게 감사한 마음을 전할땐<br>
+                            옵스와 함께하세요
+                        </p>
+                        <img src="images/main/main_bn_02.jpg" alt="메인이미지02">
+                    </div>
+                    <div class="swiper-slide main03">
+                        <h4>Christmas Day</h4>
+                        <h5>Event</h5>
+                        <p>즐거운 연말 옵스의 케이크와 함께</p>
+                        <img src="images/main/main_bn_03.jpg" alt="메인이미지03">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </main>
+        <section class="menu">
+            <h2>옵스 메뉴소개</h2>
+            <p>옵스의 다양한 종류의 빵을 한번 느껴보세요</p>
+            <div class="menu_slide">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide menu01">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="images/main/menu_bn_01.jpg" alt="이탈리안 레몬케익이미지">
+                                            <figcaption>
+                                                이탈리안 레몬케익<br>
+                                                <span class="more">more</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide menu02">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="images/main/menu_bn_02.jpg" alt="튈 코코">
+                                            <figcaption>
+                                                튈 코코<br>
+                                                <span class="more">more</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide menu03">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="images/main/menu_bn_03.jpg" alt="프로마쥬 블랑">
+                                            <figcaption>
+                                                프로마쥬 블랑<br>
+                                                <span class="more">more</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide menu04">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <figure>
+                                            <img src="images/main/menu_bn_04.jpg" alt="쇼꼴라 노아젯트">
+                                            <figcaption>
+                                                쇼꼴라 노아젯트<br>
+                                                <span class="more">more</span>
+                                            </figcaption>
+                                        </figure>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>   
+                    <div class="swiper-pagination"></div>            
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>     
+            </div>
+        </section>
+        <section class="store">
+            <div class="inner_wrap">
+                <h2>옵스 매장안내</h2>
+                <p>여러지역의 옵스매장을 소개합니다</p>
+                <ul>
+                    <li class="seoul">
+                        <a href="#">
+                            <figure>
+                                <img src="images/main/store_bn_01.jpg" alt="서울매장이미지">
+                                <figcaption>
+                                    서울지점<br>
+                                    <span class="more">more</span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="gyeonggi">
+                        <a href="#">
+                            <figure>
+                                <img src="images/main/store_bn_02.jpg" alt="경기매장이미지">
+                                <figcaption>
+                                    경기지점<br>
+                                    <span class="more">more</span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li class="busan">
+                        <a href="#">
+                            <figure>
+                                <img src="images/main/store_bn_03.jpg" alt="부산매장이미지">
+                                <figcaption>
+                                    부산지점<br>
+                                    <span class="more">more</span>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="event">
+            <div class="event_img">
+                <div class="event01"><img src="images/main/event_bn_01.jpg" alt="이벤트이미지01"></div>
+                <div class="event02"><img src="images/main/event_bn_02.jpg" alt="이벤트이미지02"></div>
+                <div class="event03"><img src="images/main/event_bn_03.jpg" alt="이벤트이미지03"></div>
+                <div class="event04"><img src="images/main/event_bn_04.jpg" alt="이벤트이미지04"></div>
+            </div>
+            <div class="event_board">
+                <h2>옵스 EVENT</h2>
+                <p>옵스의 새로운 이벤트들을 만나보세요</p>
+                <div class="event_text">
+                    <ul>
+                        <li><a href="#">[EVENT] 첫 구매고객 이벤트! 첫 구매로 다양한 혜택을 만나보세요!</a></li>
+                        <li><a href="#">[EVENT] 통앙금빵 출시 이벤트! 통앙금빵 하나를 사면 하나 더 추가해 드립니다.</a></li>
+                        <li><a href="#">[EVENT] 케이크 시즌 한정 이벤트! 옵스의 케이크로 특별한 기념을 해보세요</a></li>
+                        <li><a href="#">[EVENT] 3만원이상 무료배달 이벤트! 고객님께 돌려드리는 혜택!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="introduce">
+            <div class="inner_wrap">
+                <div class="introduce_title">
+                    <h2>옵스 OPS</h2>
+                    <p>옵스는 자연의 맛을 추구합니다</p>
+                </div>
+                <p class="introduce_text">
+                    1989년 부산 남천동에서 처음 문을 연 이래로 전통과 자연의 맛을<br>
+                    고집스레 지켜온 옵스는, 기본에 충실한 경영이념과 노하우를 가지고<br>
+                    고객의 건강한 행복을 위해 전진하고 있습니다.<br>
+                    <span class="space_text">옵스의 셰프들이 엄선한 재료로 만든 옵스의 다양한 맛을 느껴보세요.</span>
+                </p>
+            </div>
+        </section>
+        <section class="magazine">
+            <h2>옵스 MAGAZINE</h2>
+            <p>옵스의 다양한 소식들을 만나보세요</p>
+            <ul>
+                <li>
+                    <a href="#" class="croissant">
+                        <div class="croissant_text">
+                            <h5>BAKERY STORY</h5>
+                            <h4>Croissant</h4>
+                            <h5>with OPS</h5>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/main/magazine_croissant_bn_01.jpg" alt="크로와상이미지01"></div>
+                                <div class="swiper-slide"><img src="images/main/magazine_croissant_bn_02.jpg" alt="크로와상이미지02"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="stollen">
+                        <div class="stollen_text">
+                            <h5>BAKERY STORY</h5>
+                            <h4>Stollen</h4>
+                            <h5>with OPS</h5>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/main/magazine_stollen_bn_01.jpg" alt="슈톨렌이미지01"></div>
+                                <div class="swiper-slide"><img src="images/main/magazine_stollen_bn_02.jpg" alt="슈톨렌이미지02"></div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="tea">
+                        <div class="tea_text">
+                            <h5>the</h5>
+                            <h4>Tea &amp; Bakery</h4>
+                            <h5>with OPS</h5>
+                        </div>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="images/main/magazine_tea_bn_01.jpg" alt="티이미지01"></div>
+                                <div class="swiper-slide"><img src="images/main/magazine_tea_bn_02.jpg" alt="티이미지02"></div>
+                            </div>
+                        </div>
+                    </a>    
+                </li>
+            </ul>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </section>
+        <section class="notice">
+            <div class="notice_title">
+                <h2>공지사항</h2>
+                <p>옵스의 소식을 알려드립니다</p>
+                <a href="#" class="more">more</a>
+            </div>
+            <ul class=".notice_text">
+                <li>
+                    <p class="type">[매장]</p>
+                    <p class="contents"><a href="#">옵스에서 운영하는 드마히니 레스토랑 '오케스트라'</a></p>
+                    <p class="date">2021-08-30</p>
+                </li>
+                <li>
+                    <p class="type">[공지]</p>
+                    <p class="contents"><a href="#">옵스 쇼핑몰 휴무 일정 안내</a></p>
+                    <p class="date">2021-02-25</p>
+                </li>
+                <li>
+                    <p class="type">[공지]</p>
+                    <p class="contents"><a href="#">고객 불만에 대한 옵스의 설명-재고 빵 재사용</a></p>
+                    <p class="date">2020-12-29</p>
+                </li>
+                <li>
+                    <p class="type">[공지]</p>
+                    <p class="contents"><a href="#">옵스 온라인 쇼핑몰 이용안내</a></p>
+                    <p class="date">2018-07-04</p>
+                </li>
+            </ul>
+        </section>
+        <footer>
+            <div class="f_top">
+                <div class="inner_wrap">
+                    <div class="f_nav">
+                        <ul>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">이메일무단수집거부</a></li>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">윤리신고센터</a></li>
+                        </ul>
+                    </div>
+                    <div class="family_site">
+                        <button>
+                            <span class="text">FAMILY SITE</span>
+                            <span class="icon"><img src="images/common/footer_familyicon_out.png" alt="패밀리사이트 리스트 다운 아이콘"></span>
+                        </button>
+                        <ul>
+                            <li><a href="http://jardinops.com/" target="_blank">쟈흐당 옵스</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="f_bottom">
+                <h1><img src="images/common/footer_logo.png" alt="옵스 로고"></h1>
+                <address>
+                    COMPANY (주)옵스<br>
+                    CEO 김XX | CPO 박XX<br>
+                    TEL 1000-0000<br>
+                    ADDRESS 부산광역시 남구 000 000<br>
+                    BUSINESS LICENSE 000-00-00000 | ONLINE LICENSE 제 0000-0000-00<br>
+                </address>
+                <div class="sns">
+                    <ul>
+                        <li><a href="#"><img src="images/common/footer_sns_01.png" alt="페이스북아이콘"></a></li>
+                        <li><a href="#"><img src="images/common/footer_sns_02.png" alt="인스타그램아이콘"></a></li>
+                        <li><a href="#"><img src="images/common/footer_sns_03.png" alt="트위터아이콘"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="mobile_btn">
+            <a href="http://mops12.dothome.co.kr/">모바일버전</a>
+        </div>
+        <aside class="scroll_btn">
+            <a href="#" class="scroll_top">top</a>
+            <a href="#" class="scroll_down">down</a>
+        </aside>
+    </body>
+</html>
